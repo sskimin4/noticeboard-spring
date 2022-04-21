@@ -32,7 +32,8 @@ public class BoardController {
 	@RequestMapping(value = "/board/write", method = RequestMethod.POST)
 	public String write(BoardVO boardVO) throws Exception{
 		logger.info("write");
-		
+		logger.info("write2");
+
 		service.write(boardVO);
 		
 		return "redirect:/";
