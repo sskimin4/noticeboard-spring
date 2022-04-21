@@ -33,6 +33,7 @@ public class BoardController {
 	public String write(BoardVO boardVO) throws Exception{
 		logger.info("write");
 		logger.info("write2");
+		logger.info("write3");
 
 		service.write(boardVO);
 		
